@@ -1708,6 +1708,9 @@ declare class Project {
 
   /** Retrieves an item from the project. */
   item(index: number): Item
+  
+  /** Retrieves an item by its Item ID */
+  itemByID(id: number): Item
 
   /** Consolidates all footage in the project. */
   consolidateFootage(): number
